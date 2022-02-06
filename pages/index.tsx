@@ -1,10 +1,10 @@
-import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
-const Home: NextPage = () => (
-  <>
+export default function Home() {
+  return (
+    <>
     {/* Navbar */}
     <section>
       <nav className="navbar navbar-expand-lg navbar-light bg-light bg-white pt-lg-40 pb-lg-40 pt-30 pb-50">
@@ -802,6 +802,5 @@ const Home: NextPage = () => (
       </footer>
     </section>
   </>
-);
-
-export default Home;
+  )
+}
