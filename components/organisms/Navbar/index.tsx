@@ -5,8 +5,6 @@ import ToggleMenu from './ToggleMenu';
 
 export default function Navbar() {
   return (
-    <>
-    {/* Navbar */}
     <section>
       <nav className="navbar navbar-expand-lg navbar-light bg-light bg-white pt-lg-40 pb-lg-40 pt-30 pb-50">
         <div className="container-fluid">
@@ -27,6 +25,5 @@ export default function Navbar() {
         </div>
       </nav>
     </section>
-    </>
   )
 }
